@@ -1,6 +1,4 @@
-/*Conversor de Unidades:
 
-Implemente um conversor que suporte várias unidades de medida, como comprimento, massa e volume. Crie funções para converter entre diferentes unidades dentro de cada categoria. */
 
 #include <iostream>
 #include <stdlib.h>
@@ -32,7 +30,7 @@ int main(void){
     int option;
     float cm;
     float result;
-    vector<string> history;  // Vetor para armazenar o histórico
+    vector<string> history; 
 
     do{
         cout << "-------------------" << endl;
